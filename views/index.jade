@@ -1,0 +1,27 @@
+extend layout
+
+block content
+  p Upload an image
+  div
+    form(action='/upload', method='POST', enctype='multipart/form-data')
+      input(type='text', name='title')
+      input(type='file', name='photo')
+      input(type='submit', value='Upload')
+
+  br
+  hr
+  br
+
+  div.pictures
+    table
+      tr
+        th Thumbnail
+        th Original image
+        th Title
+      each picture in pictures
+        tr
+          td
+            img(src='/uploads/'+picture.photo.thumb.rel)
+          td
+            a(href='/uploads/'+picture.photo.rel) open
+          td= picture.title

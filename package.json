@@ -1,0 +1,29 @@
+{
+    "name": "mongoose-thumbnail-example"
+  , "description": "mongoose-thumbnail plugin example"
+  , "version": "0.0.1"
+  , "homepage": "https://github.com/panta/mongoose-thumbnail-example"
+  , "author": "Marco Pantaleoni <marco.pantaleoni@gmail.com>"
+  , "dependencies": {
+      "jade": "~0.35.0"
+    , "express": "~3.4.0"
+    , "mongoose": "~3.6.20"
+    , "mongoose-file": "*"
+    , "mongoose-thumbnail": "*"
+  }
+  , "devDependencies": {
+      "coffee-script": "~1.6.3"
+  }
+  , "keywords": ["mongoose", "express", "thumbnail", "upload", "example"]
+  , "repository": {
+      "type": "git"
+    , "url": "git://github.com/panta/mongoose-thumbnail-example.git"
+  }
+  , "bugs": {
+      "url" : "https://github.com/panta/mongoose-thumbnail-example/issues"
+  }
+  , "licenses": [{
+      "type": "MIT"
+    , "url": "https://raw.github.com/panta/mongoose-thumbnail-example/master/LICENSE"
+  }]
+}
