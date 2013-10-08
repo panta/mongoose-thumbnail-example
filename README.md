@@ -4,9 +4,11 @@ An [express.js][expressjs] sample application showing how to use the [mongoose-t
 
 ## Installation & use
 
+```
 npm install mongoose-thumbnail-example
 source env.sh
 npm start
+```
 
 [mongoose]: http://mongoosejs.com
 [CoffeeScript]: http://jashkenas.github.com/coffee-script/
