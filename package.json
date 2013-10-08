@@ -26,4 +26,7 @@
       "type": "MIT"
     , "url": "https://raw.github.com/panta/mongoose-thumbnail-example/master/LICENSE"
   }]
+  , "scripts": {
+      "start": "coffee app.coffee"
+  }
 }
