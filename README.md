@@ -4,9 +4,11 @@ An [express.js][expressjs] sample application showing how to use the [mongoose-t
 
 ## Installation & use
 
+You can install locally and enter the project subdirectory:
+
 ```
 npm install mongoose-thumbnail-example
-source env.sh
+cd node_modules/mongoose-thumbnail-example
 npm start
 ```
 
