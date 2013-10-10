@@ -1,7 +1,7 @@
 {
     "name": "mongoose-thumbnail-example"
   , "description": "Example express.js app to showcase mongoose-thumbnail plugin"
-  , "version": "0.0.1"
+  , "version": "0.0.2"
   , "homepage": "https://github.com/panta/mongoose-thumbnail-example"
   , "author": "Marco Pantaleoni <marco.pantaleoni@gmail.com>"
   , "dependencies": {
